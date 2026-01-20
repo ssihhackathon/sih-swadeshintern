@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive or private routes
+Disallow: /admin/
+Disallow: /admin-panel
+Disallow: /dashboard
+Disallow: /account/
+
+# Point to your sitemap (Update domain!)
+Sitemap: https://swadeshintern.me/sitemap.xml
